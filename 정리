@@ -25,5 +25,33 @@
 - edge location > distribution
 
 7. EFS
-- 
+- file storage: 속도빠르고 가벼움
+- 완전 관리형
+- 리전 수준의 서비스
+- 여러 가용영역에 중복 저장
+
+8.RDS
+- DB instance(SaaS)
+- access: workbench
+- ssh 사용 불가
+- mysql, mssql, oracle
+- multi-AZ
+- Read Replica: 읽기 전용
+- Automated Backup
+- SnapShot
+- DB instance(SaaS):DB서버는 만들 수 있지만 들어가 볼수는 없음
+
+9. DynamoDB(NoSql)
+- 비정형 DB
+- 파티션 키/ 정렬 키
+- key-value: 해쉬
+
+10 .ElasticCache
+- In Memory Cache(DB)
+- redis/memcached
+- RedShift
+- DataWareHouse
+- PostgresQL
+
+
                              
