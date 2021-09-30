@@ -1,0 +1,29 @@
+1. Cloud Computing(utility)
+
+
+4. storage
+- EBS: instance 생성시 storage는 추가/ 별도의 볼륨생성> instance추가
+- snapshot(백업): 
+    - AMI => instance=> AMI(다른 리전간 복사가능: 인스턴스는 다른 리전으로 보낼수 없음)
+    - instance => snapshot => 다른 리전간 복사가능(EBS는 다른 리전으로 보낼수 없음)
+    - snapshot > AMI > instance > volume > sanpshot
+
+5. s3(Object Storage)
+- bucket/object
+- object: 데이터, 메타데이터, 키
+- 완전관리형
+- 무제한의 공간에 5TB(무제한급)의 파일을 업로드 가능
+- 정적웹호스팅 가능
+- 글로벌 서비스
+- 버킷 생성시, 리전 선택
+- 멀티파트 업로드
+- 버전관리
+- storage class(비용) : 수명주기 - 활성화 된 데이터는 standard/비활성화 된 데이터는 standard IA/ intelligent tiering
+
+6. CloudFront
+- CDN
+- edge location > distribution
+
+7. EFS
+- 
+                             
